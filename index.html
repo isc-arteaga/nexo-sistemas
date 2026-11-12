@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PÁGINA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="barra">
+    <a href="#inicio" class="logo">Tecnología y Futuro</a>
+
+    <button class="menu-boton" aria-label="Abrir menú">&#9776;</button>
+
+    <nav class="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#tendencias">Tendencias</a>
+      <a href="#videos">Videos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#profesion">Profesión</a>
+      <a href="#futuro">Trabajos del futuro</a>
+      <a href="#entrevista">Entrevista</a>
+      <a href="#librerias">Librerías</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="inicio">
+      <div class="carrusel">
+
+        <div class="slide activo">
+          <img src="imageneS/carrusel4.jpg" alt="Descripción de la imagen 1">
+          <div class="slide-texto">
+            <span class="etiqueta">Mirando al futuro</span>
+            <h1>El futuro de la ingeniería en sistemas</h1>
+            <p>Tendencias, habilidades e inteligencia artificial en la profesión.</p>
+            <a href="#tendencias" class="boton">Comenzar</a>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="imageneS/carrusel1.jpg" alt="Descripción de la imagen 2">
+          <div class="slide-texto">
+            <h2>El futuro de la ingeniería en sistemas</h2>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="imageneS/carrusel3.jpg" alt="Descripción de la imagen 3">
+          <div class="slide-texto">
+            <h2>El futuro de la ingeniería en sistemas</h2>
+          </div>
+        </div>
+
+        <button class="flecha anterior" aria-label="Imagen anterior">&#10094;</button>
+        <button class="flecha siguiente" aria-label="Imagen siguiente">&#10095;</button>
+        <div class="puntos"></div>
+      </div>
+
+    <section id="tendencias">
+      <div class="contenido">
+        <span class="numero">02</span>
+        <h2>Tendencias tecnológicas según la Empresa Gartner</h2>
+        <!-- AQUÍ VA TU TEXTO DE INTRODUCCIÓN -->
+        <p class="introduccion">En 2026, la disrupción se acelera y la IA deja de ser opcional. las principales tendencias tecnológicas son herramientas esenciales para que los CIO y los responsables de TI puedan sentar los cimientos de la resiliencia, orquestar sistemas inteligentes y proteger el valor de la empresa.</p>
+
+        <!-- ========== SUBTÍTULO 1 (3 puntos) ========== -->
+        <article class="bloque">
+          <h3>EL ARQUITECTO: PLATAFORMAS E INFRAESTRUCTURA DE IA</h3>
+          <p class="definicion">Estas tendencias se centran en crear una base segura y escalable para la IA y la transformación digital:</p>
+
+          <div class="puntos-grid tres">
+            <div class="punto">
+              <h4>Plataformas de desarrollo nativas de IA</h4>
+              <p>Permiten que equipos pequeños y ágiles creen software utilizando IA.</p>
+            </div>
+            <div class="punto">
+              <h4>Plataformas de supercomputación de IA</h4>
+              <p>Permiten grandes avances en el entrenamiento y el análisis de modelos.</p>
+            </div>
+            <div class="punto">
+              <h4>Computación confidencial</h4>
+              <p>Protege los datos sensibles durante su procesamiento, lo que garantiza un análisis de datos seguro.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========== SUBTÍTULO 2 (3 puntos) ========== -->
+        <article class="bloque">
+          <h3>EL SINTETIZADOR: APLICACIÓN Y ORQUESTACIÓN DE IA</h3>
+          <p class="definicion">Estas tendencias destacan cómo combinar modelos especializados, agentes y sistemas físico-digitales para generar nuevo valor:</p>
+
+          <div class="puntos-grid tres">
+            <div class="punto">
+              <h4>Sistemas multiagente</h4>
+              <p>Permiten que los agentes de IA modular puedan colaborar en tareas complejas, lo que mejora la automatización.</p>
+            </div>
+            <div class="punto">
+              <h4>Modelos de lenguaje específicos de dominio</h4>
+              <p>Ofrecen un mayor grado de precisión y cumplimiento en casos de uso de sectores específicos.</p>
+            </div>
+            <div class="punto">
+              <h4>IA física</h4>
+              <p> Incorpora inteligencia en el entorno físico y capacita a los robots, los drones y a los equipos inteligentes para lograr un impacto operativo.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========== SUBTÍTULO 3 (4 puntos) ========== -->
+        <article class="bloque">
+          <h3>EL VANGUARDISTA: SEGURIDAD, CONFIANZA Y GOBERNANZA</h3>
+          <p class="definicion">La empresa identifica y reduce riesgos de ciberseguridad para proteger sus datos, cumplir las normas y mantener la confianza.</p>
+
+          <div class="puntos-grid cuatro">
+            <div class="punto">
+              <h4>Ciberseguridad preventiva</h4>
+              <p>Supone pasar de una defensa reactiva a una proactiva: en lugar de reaccionar ante amenazas, las anticipa utilizando la IA para bloquearlas antes de que ataquen.</p>
+            </div>
+            <div class="punto">
+              <h4>Procedencia digital</h4>
+              <p>Verifica el origen y la integridad del software, los datos y el contenido generado por IA, lo que resulta esencial para la confianza y el cumplimiento.</p>
+            </div>
+            <div class="punto">
+              <h4>Plataformas de seguridad de IA</h4>
+              <p>Centralizan la visibilidad y el control de las aplicaciones de terceros y de IA personalizada.</p>
+            </div>
+            <div class="punto">
+              <h4>Geopatriación</h4>
+              <p>Ayuda a las organizaciones a reducir el riesgo geopolítico mediante el traslado de las cargas de trabajo a proveedores de la nube soberana o regional.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== 3. VIDEOS DE PYTHON CON MACHINE LEARNING ===================== -->
+    <section id="videos" class="alterna">
+      <div class="contenido">
+        <span class="numero">03</span>
+        <h2>Python con Machine Learning</h2>
+        <!-- AQUÍ VA TU TEXTO DE INTRODUCCIÓN -->
+        <p class="introduccion">El objetivo de los videos es usar una red simple, que cumpla una función y nos permita ver cómo funciona.</p>
+
+        <div class="videos-grid">
+          <article class="video-caja">
+            <!-- OPCIÓN A: video guardado en tu carpeta -->
+            <video controls>
+              <source src="imageneS/Tu primera red neuronal en Python y Tensorflow(720P_HD).mp4" type="video/mp4">
+              Tu navegador no admite la reproducción de video.
+            </video>
+            <h3>Conversión de Celsius a Fahrenheit con redes neuronales</h3>
+            <p>Video de referencia que introduce los fundamentos del Machine Learning con Python y TensorFlow a través de un ejemplo sencillo de conversión de temperaturas. Sirvió como base para el modelo desarrollado en el siguiente video.</p>
+          </article>
+          <!-- ========== VIDEO 2 ========== -->
+          <article class="video-caja">
+            <!-- OPCIÓN A: video guardado en tu carpeta -->
+            <video controls>
+              <source src="imageneS/neurona.mp4" type="video/mp4">
+              Tu navegador no admite la reproducción de video.
+            </video>
+            <h3>Conversión de pesos mexicanos a dólares con redes neuronales</h3>
+            <p>Adaptación del modelo anterior a un caso distinto: una red neuronal entrenada con una tasa de cambio fija que predice el valor en dólares de cualquier cantidad en pesos.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. HABILIDADES EN EMPRESAS DE TI ===================== -->
+    <section id="habilidades">
+      <div class="contenido">
+        <span class="numero">04</span>
+        <h2>Habilidades necesarias en las empresas de TI</h2>
+        <p class="introduccion">En el sector de las tecnologías de la información, el éxito profesional depende tanto del dominio técnico como de las habilidades personales.</p>
+
+        <!-- Cada tarjeta es una habilidad. Copia o borra las que necesites -->
+        <div class="tarjetas">
+
+          <article class="tarjeta">
+            <h3>Desarrollo de software y programación</h3>
+            <p>La programación y el desarrollo de software son habilidades altamente valoradas por las empresas, ya que permiten crear soluciones innovadoras y personalizadas para sus necesidades. </p>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Análisis de datos y ciencia de datos</h3>
+            <p>La capacidad para analizar y interpretar grandes cantidades de datos es fundamental en la toma de decisiones empresariales. Las empresas buscan profesionales que puedan extraer insights valiosos de los datos y utilizarlos para impulsar su estrategia.</p>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Big Data</h3>
+            <p>En la era del dato, el uso de Big Data no para de crecer. Estas herramientas están involucradas en todo el ciclo de vida de la gestión de la información, tales como: identificar los orígenes de dicha información, almacenar y extraer grandes volúmenes de datos, diseñar la arquitectura del ecosistema informativo empresarial, análisis, visualización y monitorización en tiempo real. </p>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Brand Manager</h3>
+            <p>Los expertos en branding digital son responsables de cuidar la imagen de marca de una compañía, adaptándola a estrategias digitales y acciones comunicativas acordes al público objetivo. Entre las habilidades que deben potenciar está la resolución de problemas, entender el segmento de la empresa, conocer las preferencias del público objetivo, identificar los puntos de acción de las compañías, gestionar el equipo creativo y analizar los resultados.</p>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Marketing digital</h3>
+            <p>Los expertos en branding trabajan mano a mano con los profesionales en marketing digital. Contar con profesionales cualificados en marketing digital puede llevar a las empresas a mejorar su posicionamiento en el entorno digital.  Entre los elementos esenciales de este sector destaca la analítica y publicidad, puesto que cualquier acción debe estar basada en datos. </p>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Ciberseguridad </h3>
+            <p>Según el último informe publicado por la Unión Europea, se necesitan en torno a 400.000 profesionales de la ciberseguridad en los próximos años. Los riesgos de sufrir ciberataques son una de las principales preocupaciones de las empresas con presencia digital, por esta razón, buscan expertos en ciberseguridad para evitar cualquier ataque.  Las habilidades principales del puesto en ciberseguridad son: diseñar planes para salvaguardar los archivos informáticos, controlar los informes sobre virus, implementar prólogos de actuación y manejar herramientas de seguridad como Malware o Hacking.  </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. PREDOMINANTES Y EMERGENTES DE LA PROFESIÓN ===================== -->
+    <section id="profesion" class="alterna">
+      <div class="contenido">
+        <span class="numero">05</span>
+        <h2>Predominantes y emergentes de la profesión</h2>
+        <!-- AQUÍ VA TU TEXTO DE INTRODUCCIÓN -->
+        <p class="introduccion"></p>
+
+        <div class="categorias">
+
+          <!-- ========== SOFTWARE ========== -->
+          <article class="categoria">
+            <img src="imageneS/software.webp" alt="Software">
+            <h3>Software</h3>
+            <div class="dos-listas">
+              <div>
+                <ul>
+                  <li>Lenguajes de programación: JavaScript, PHP, Python, Java, C#, C++, Matlab, HTML.</li>
+                  <li>Librerías y herramientas web: jQuery, Ajax, WordPress, frameworks</li>
+                  <li>AQUÍ VA OTRO ELEMENTO</li>
+                </ul>
+              </div>
+              <div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ========== HARDWARE ========== -->
+          <article class="categoria">
+            <img src="imageneS/hardware.jpg" alt="Hardware">
+            <h3>Hardware</h3>
+            <div class="dos-listas">
+              <div>
+                <ul>
+                  <li>Mantenimiento y soporte técnico de equipos de cómputo.</li>
+                  <li>Administración de servidores Windows y Linux, incluido Windows Server.</li>
+                  <li>Virtualización con VMware y Hyper-V.</li>
+                  <li>Infraestructura tecnológica.</li>
+                  <li>CCTV, telefonía IP y conmutador.</li>
+                  <li>Conocimientos generales de hardware.</li>
+                </ul>
+              </div>
+              <div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ========== BASES DE DATOS ========== -->
+          <article class="categoria">
+            <img src="imageneS/bases.jpg" alt="Bases de datos">
+            <h3>Bases de datos</h3>
+            <div class="dos-listas">
+              <div>
+                <ul>
+                  <li>SQL. Se espera saber consultar, insertar, actualizar y eliminar información, y relacionar tablas.</li>
+                  <li>MySQL</li>
+                  <li>Manejo de bases de datos y sistemas de información, para entender cómo se guarda, organiza y consulta la información de una empresa.</li>
+                  <li>Bases de datos como parte del desarrollo, se esperan junto con los lenguajes de programación y las herramientas de desarrollo.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- ========== REDES DE COMPUTADORAS ========== -->
+          <article class="categoria">
+            <img src="imageneS/redes.jpg" alt="Redes de computadoras">
+            <h3>Redes de computadoras</h3>
+            <div class="dos-listas">
+              <div>
+                <ul>
+                  <li>LAN y WAN.</li>
+                  <li>AVPN y comunicaciones SSL.</li>
+                  <li>Firewalls.</li>
+                  <li>Configuración de cableado con conexiones y cableado estructurado.</li>
+                  <li>Seguridad informática básica.</li>
+                </ul>
+              </div>
+              <div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 6. TRABAJOS DEL FUTURO (10) ===================== -->
+    <section id="futuro">
+      <div class="contenido">
+        <span class="numero">06</span>
+        <h2>Trabajos del futuro</h2>
+        <!-- AQUÍ VA TU TEXTO DE INTRODUCCIÓN -->
+        <p class="introduccion"></p>
+
+        <div class="trabajos">
+
+          <article class="trabajo">
+            <span class="trabajo-numero">1</span>
+            <img src="imageneS/impresion.avif" alt="Trabajo 1">
+            <h3>Diseñador de partes humanas del cuerpo humano</h3>
+            <p>Profesionales especializados en bioingeniería que diseñan y crean órganos, tejidos y extremidades artificiales o impresas en 3D.</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">2</span>
+            <img src="imageneS/desarrollador.jpg" alt="Trabajo 2">
+            <h3>Desarrollador de robots e inteligencia artificial </h3>
+            <p>Ingenieros encargados de crear, programar y optimizar sistemas autónomos y algoritmos inteligentes capaces de realizar tareas.</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">3</span>
+            <img src="imageneS/clones.png" alt="Trabajo 3">
+            <h3>Veterinario de clones</h3>
+            <p>Expertos en la clonación de mascotas queridas (perros, gatos, caballos).</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">4</span>
+            <img src="imageneS/insectos.avif" alt="Trabajo 4">
+            <h3>Cocinero de insectos</h3>
+            <p>Expertos culinarios enfocados en preparar y transformar insectos en alimentos nutritivos, para el consumo humano masivo.</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">5</span>
+            <img src="imageneS/ciberseguridad.jpg" alt="Trabajo 5">
+            <h3>Expertos en ciberseguridad</h3>
+            <p>Profesionales que protegen sistemas informáticos, redes y datos contra ataques digitales, brechas de seguridad y amenazas cibernéticas.</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">6</span>
+            <img src="imageneS/rvirtual.webp" alt="Trabajo 6">
+            <h3>Desarrollador de realidad virtual y aumentada</h3>
+            <p>Creadores de entornos inmersivos y simulaciones digitales aplicados a la educación, el entretenimiento, el trabajo remoto y la medicina.</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">7</span>
+            <img src="imageneS/deportes.webp" alt="Trabajo 7">
+            <h3>Expertos en deportes electrónicos</h3>
+            <p>Especialistas en la gestión, entrenamiento, análisis táctico y organización de competencias profesionales de videojuegos.</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">8</span>
+            <img src="imageneS/adultosmayores.jpg" alt="Trabajo 8">
+            <h3>Personal de cuidado de adultos mayores</h3>
+            <p>Cuidadores especializados en la atención integral, salud y asistencia personalizada para una población global cada vez más longeva.</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">9</span>
+            <img src="imageneS/rerutilizacion.webp" alt="Trabajo 9">
+            <h3>Expertos de reutilización de desechos</h3>
+            <p>Encargados de transformar basura y subproductos industriales en nuevos materiales, energía o recursos útiles para reducir el impacto ambiental.</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">10</span>
+            <img src="imageneS/blockchain.webp" alt="Trabajo 10">
+            <h3>Expertos de blockchain</h3>
+            <p>Desarrolladores y analistas que diseñan sistemas descentralizados y seguros para transacciones financieras, contratos inteligentes y trazabilidad de datos.</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">11</span>
+            <img src="imageneS/impresionedificios.jpg" alt="Trabajo 11">
+            <h3>Ingenieros de impresión de edificios</h3>
+            <p>Especialistas en construcción automatizada que utilizan tecnología de impresión 3D a gran escala para levantar estructuras y viviendas de forma rápida y eficiente.</p>
+          </article>
+
+          <article class="trabajo">
+            <span class="trabajo-numero">12</span>
+            <img src="imageneS/analista.jpg" alt="Trabajo 12">
+            <h3>Analistas de nuevas tecnologías</h3>
+            <p>Investigadores que evalúan las tendencias emergentes del mercado para determinar el impacto, viabilidad y adopción de tecnologías innovadoras en las empresas.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <section id="entrevista" class="alterna">
+      <div class="contenido">
+        <span class="numero">07</span>
+        <h2>Entrevista a un egresado de ISC</h2>
+        <p class="introduccion"></p>
+
+        <div class="perfil">
+          <img src="imageneS/isc.jpg" alt="Foto del entrevistado">
+          <div class="perfil-datos">
+            <h3>Arnulfo</h3>
+            <ul>
+              <li><strong>Carrera:</strong> Ingeniero en sistemas computacionales</li>
+              <li><strong>Puesto actual:</strong> Docencia en Informatica</li>
+              <li><strong>Institución:</strong> Colegio de Bachilleres del Estado de Zacatecas</li>
+              <li><strong>Año de egreso:</strong> 2022</li>
+              <li><strong>Fecha de la entrevista:</strong> 8 de noviembre 2026</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ========== EVIDENCIAS ========== -->
+        <h3 class="subtitulo">Evidencias</h3>
+        <div class="galeria">
+          <figure>
+            <img src="imageneS/Multimedia (5).jpg" alt="Evidencia 1">
+            <figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="imageneS/Multimedia (2).jpg" alt="Evidencia 2">
+            <figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="imageneS/Multimedia (3).jpg" alt="Evidencia 3">
+            <figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="imageneS/Multimedia (6).jpg" alt="Evidencia 4">
+            <figcaption></figcaption>
+          </figure>
+        </div>
+
+        <!-- ========== PREGUNTAS Y RESPUESTAS (8) ========== -->
+        <h3 class="subtitulo">Preguntas y respuestas</h3>
+        <div class="preguntas">
+
+          <article class="pregunta">
+            <h4><span>1</span> ¿A qué se dedica profesionalmente y cuáles son sus principales funciones?</h4>
+            <p>Actualmente se desempeña como docente en el área de informática, impartiendo clases a estudiantes en temas tecnológicos.</p>
+          </article>
+
+          <article class="pregunta">
+            <h4><span>2</span> ¿Cuál es su ubicación laboral actual?</h4>
+            <p>Ejerce su profesión en el municipio de Atolinga, Zacatecas.</p>
+          </article>
+
+          <article class="pregunta">
+            <h4><span>3</span> ¿Qué herramientas tecnológicas y software emplea en su labor diaria?</h4>
+            <p>Utiliza diversas aplicaciones de diseño o desarrollo, tales como Blender, MakeHuman, NetBeans, Microsoft Excel y Microsoft Word.</p>
+          </article>
+
+          <article class="pregunta">
+            <h4><span>4</span> ¿Qué sistema de gestión de bases de datos utiliza?</h4>
+            <p>Emplea MySQL para la administración y almacenamiento de información.</p>
+          </article>
+
+          <article class="pregunta">
+            <h4><span>5</span> ¿Qué lenguajes de programación utiliza?</h4>
+            <p>Trabaja principalmente con Java, PHP y HTML.</p>
+          </article>
+
+          <article class="pregunta">
+            <h4><span>6</span> ¿Cómo integra la inteligencia artificial en su trabajo y qué impacto ha tenido?</h4>
+            <p>Actualmente no incorpora herramientas de IA en sus actividades cotidianas.</p>
+          </article>
+
+          <article class="pregunta">
+            <h4><span>7</span> 7.	¿Qué consideraciones toma al trabajar con datos restringidos?</h4>
+            <p>No maneja información de este tipo, ya que en su práctica habitual no emplea datos reales.</p>
+          </article>
+
+        </div>
+
+        <!-- ========== FRASE DESTACADA ========== -->
+        <blockquote class="cita">
+          <p>En Atolinga, formo a las nuevas mentes de la informática con herramientas prácticas, pero sin descuidar la seguridad, manteniendo siempre la teoría alejada de los datos reales.</p>
+          <cite></cite>
+        </blockquote>
+
+    <!-- ===================== 8. LIBRERÍAS DE PYTHON PARA IA GENERATIVA ===================== -->
+    <section id="librerias">
+      <div class="contenido">
+        <span class="numero">08</span>
+        <h2>Librerías de Python utilizadas en la IA generativa</h2>
+        <!-- AQUÍ VA TU TEXTO DE INTRODUCCIÓN -->
+        <p class="introduccion"></p>
+
+        <!-- Cada tarjeta es una librería. Copia o borra las que necesites -->
+        <div class="librerias">
+
+          <article class="libreria">
+            <img src="imageneS/libreria 1.jpg" alt="Logotipo de la librería 1">
+            <h3> SciPy: Fundación para la Computación Científica</h3>
+            <p>Basado en NumPy, SciPy proporciona módulos avanzados para optimización, álgebra lineal, integración y más, lo que lo convierte en una piedra angular de la computación científica.</p>
+          </article>
+
+          <article class="libreria">
+            <img src="imageneS/2.png" alt="Logotipo de la librería 2">
+            <h3> scikit-learn: Aprendizaje automático clásico simplificado.</h3>
+            <p>Scikit-learn (sklearn) es la biblioteca de referencia para algoritmos clásicos de aprendizaje automático como regresión, clasificación y agrupamiento, con una API fácil de usar.</p>
+          </article>
+
+          <article class="libreria">
+            <img src="imageneS/logotipo3.png" alt="Logotipo de la librería 3">
+            <h3> PyTorch: Aprendizaje profundo flexible para la investigación</h3>
+            <p>PyTorch es un marco de aprendizaje profundo dinámico, apreciado por su interfaz en Python y su flexibilidad, y ampliamente utilizado en la investigación.</p>
+          </article>
+
+          <article class="libreria">
+            <img src="imageneS/imagen4.jpg" alt="Logotipo de la librería 4">
+            <h3>TensorFlow: Aprendizaje profundo listo para producción</h3>
+            <p>TensorFlow es un marco de trabajo versátil para el aprendizaje profundo, con sólidas capacidades de producción y soporte para el entrenamiento distribuido.</p>
+          </article>
+
+          <article class="libreria">
+            <img src="imageneS/keras.webp" alt="Logotipo de la librería 5">
+            <h3>Keras: Simplicidad de aprendizaje profundo de alto nivel</h3>
+            <p> Keras, ahora la API de alto nivel predeterminada de TensorFlow, simplifica la creación de redes neuronales con un código mínimo.</p>
+          </article>
+
+          <article class="libreria">
+            <img src="imageneS/imagen6.webp" alt="Logotipo de la librería 6">
+            <h3>XGBoost: Impulso de gradiente de alto rendimiento</h3>
+            <p>XGBoost es una biblioteca escalable y optimizada para el aumento de gradiente, que destaca en tareas con datos estructurados.</p>
+          </article>
+
+          <article class="libreria">
+            <img src="imageneS/imagen7.png" alt="Logotipo de la librería 7">
+            <h3>LightGBM: Potenciación de gradiente escalable</h3>
+            <p>LightGBM es un marco de trabajo de potenciación de gradiente rápido y eficiente en cuanto al uso de memoria, ideal para grandes conjuntos de datos.</p>
+          </article>
+
+          <article class="libreria">
+            <img src="imageneS/imagen88.png" alt="Logotipo de la librería 10">
+            <h3>NLTK: Kit de herramientas de PNL tradicional</h3>
+            <p>NLTK es una biblioteca para el procesamiento de texto y el análisis lingüístico, ideal para aprender los fundamentos del PLN.</p>
+          </article>
+
+          <article class="libreria">
+            <img src="imageneS/imagen9.jpg" alt="Logotipo de la librería 9">
+            <h3>OpenCV: La herramienta principal para la visión artificial</h3>
+            <p>OpenCV es una biblioteca para el procesamiento de imágenes y vídeo, ampliamente utilizada en sistemas de visión artificial.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
